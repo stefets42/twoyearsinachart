@@ -1,6 +1,7 @@
 aside#projects {
   float: left;
   width: 20vw;
+  max-height: 85vh;
   overflow-y: auto;
   background: #ffffff;
   transition: opacity .1s;

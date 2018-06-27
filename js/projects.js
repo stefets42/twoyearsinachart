@@ -36,7 +36,7 @@ const Projects = (function (my) {
     data.project = Array.isArray(data.project) ? data.project.join('<br><br>') : data.project;
     data.title = Array.isArray(data.title) ? data.title.join('<br><br>') : data.title;
 
-    data.details = linkify(data.details)
+    data.details = linkify(data.details);
 
     my.titleElem.innerHTML = data.name ? data.name : '';
     my.projectElem.innerHTML = data.project ? data.project : '';
