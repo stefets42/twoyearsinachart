@@ -45,7 +45,7 @@ const Projects = (function (my) {
   }
 
   const linkify = function (text) {
-    console.log(text)
+    if (text.indexOf('<a') > -1) return text;
     return text.replace(URL_REGEX, function (url) {
       return '<a href="' + url + '">' + url + '</a>';
     });
