@@ -17,7 +17,7 @@
   },
   {
     "project": "Maker Auto",
-    "description": "Participation in a two weeks S.T.E.A.M winter school hosted in a maker space in Mumbai.",
+    "description": "Participation in a two weeks S.T.E.A.M winter school hosted in a maker space in Mumbai. We, my team and me, used design thinking methods and principles (personae, rapid prototyping, interviews...) to work on our project.",
     "details": "https://steam.makersasylum.com/school/",
     "skill1": "Design",
     "skill2": "Design thinking",
@@ -25,7 +25,7 @@
   },
   {
     "project": "Maker Auto",
-    "description": "Participation in a two weeks S.T.E.A.M winter school hosted in a maker space in Mumbai. During those two weeks I programmed a geolocation mobile-base tracker and web visualisation of the real-time position and past positions of the GPS tracker.",
+    "description": "Participation in a two weeks S.T.E.A.M winter school hosted in a maker space in Mumbai. During those two weeks I programmed a geolocation mobile-base tracker and web visualisation of the real-time position and past positions of the GPS tracker. Those two tools were related to our team project.",
     "details": "https://steam.makersasylum.com/school/",
     "skill1": "Make",
     "skill2": "JavaScript programing",
@@ -33,7 +33,7 @@
   },
   {
     "project": "Brick Brawls",
-    "description": "Design a game that aims to teach how to program to kids based on a block system, like Scratch.",
+    "description": "I have designed a game that aims to teach how to program to kids based on a block system, like Scratch. I used game design methods and principles I have learnt in game design classes.",
     "details": "https://developers.google.com/blockly/",
     "skill1": "Design",
     "skill2": "Game design",
@@ -41,15 +41,15 @@
   },
   {
     "project": "Brick Brawls",
-    "description": "Program a game that aims to teach how to program to kids based on a block system, like Scratch.",
+    "description": "Program a game that aims to teach how to program to kids based on a block system, like Scratch. I programmed both the client and the server for this game. It is based on JavaScript, Vue.js for the front and Node.js with Express.js for the server.",
     "details": "https://developers.google.com/blockly/",
     "skill1": "Make",
     "skill2": "JavaScript programing",
     "field": "technology"
   },
   {
-    "project": "Cri Code Club",
-    "description": "Co-creation and animation of the CRI Code Club student association.\nCreate, start and run a project from scratch on the long term. Communicate around an idea and a project. Animation of workshops and traning sessions for students, refugees and others.",
+    "project": "The CRI Code Club",
+    "description": "I Co-created the CRI Code Club, a student association that aims to foster digital literacy, for everyone. I have learnt how to create, start and run a project from scratch on the long term but also how to communicate around an idea and a project. I animated workshops and traning sessions for students, refugees and others.",
     "details": "http://cricodeclub.github.io",
     "skill1": "Make",
     "skill2": "Co-creation of an association",
@@ -57,39 +57,39 @@
   },
   {
     "project": "Freelancing in web and mobile development",
-    "description": "Create my company and become a freelance web and mobile developer",
+    "description": "I Created my own company and then became a freelance web and mobile developer",
     "details": "https://louisaudeon.me",
     "skill1": "Make",
     "skill2": "Creation of a company",
     "field": "entrepreneurship"
   },
   {
-    "project": "Reading book #1",
-    "description": "A book giving a philosophical reflexion and criticism toward the \"digital reason\"",
-    "details": "La vie algorithmique, critique de la raison numérique.\nÉric Sadin.",
+    "project": "Reading 'La vie algorithmique, critique de la raison numérique'",
+    "description": "A book giving a philosophical reflexion and criticism toward the \"digital reason\". It helped me to be more critical toward digital and digital excesses.",
+    "details": "Bookname - 'La vie algorithmique, critique de la raison numérique', by Éric Sadin.",
     "skill1": "Think",
     "skill2": "Critical thinking",
     "field": "technology"
   },
   {
-    "project": "Reading book #2",
-    "description": "An essai giving a reflexion and a criticism toward the use of digital devices at school, and why digital devices cannot replace books.",
-    "details": "Dans la nuée.\nByung-chul HAN",
+    "project": "Reading 'Dans la nuée'",
+    "description": "This book is an essai giving a reflexion and a criticism toward the use of digital devices at school, and why digital devices cannot replace books.",
+    "details": "Bookname - 'Dans la nuée', by Byung-chul HAN",
     "skill1": "Think",
     "skill2": "Critical thinking",
     "field": "education"
   },
   {
-    "project": "Reading book #3",
-    "description": "A book giving a philosophical reflexion and criticism toward the use of digital devices (social networks, big data...) in modern societies",
-    "details": "Contre le colonialisme numérique.\nRoberto casati.",
+    "project": "Reading 'Contre le colonialisme numérique'",
+    "description": "This book gives a philosophical reflexion and criticism toward the use of digital devices (social networks, big data...) in modern societies",
+    "details": "Bookname - 'Contre le colonialisme numérique', by Roberto casati.",
     "skill1": "Think",
     "skill2": "Critical thinking",
     "field": "technology"
   },
   {
     "project": "Internship repport and research project",
-    "description": "Conduct a scientific litterature review in order to address the question of consultancy as a learning strategy.",
+    "description": "Conduct a scientific litterature review in order to address the question of 'consultancy as a learning strategy'.",
     "details": "",
     "skill1": "Think",
     "skill2": "Litterature review",
@@ -105,7 +105,7 @@
   },
   {
     "project": "Listening to plants",
-    "description": "Express plants activity (vibrations, electricity...) into sounds/music.",
+    "description": "I have done, with another person, in a fablab, a project to express plants activity (vibrations, electricity...) into sounds/music. We used an ECG, an Arduino and processing in order to acheive this.",
     "details": "https://github.com/Anthony-CRIM2/Listening-to-Plants",
     "skill1": "Make",
     "skill2": "Arduino and digital making",
@@ -113,7 +113,7 @@
   },
   {
     "project": "'Comment faire son laboratoire d'innovation publique ?'",
-    "description": "Framing of a MOOC 'comment faire son laboratoire d'innovation publique ?\"\nI faced the constraints and important points of designing a MOOC. I did the first drafts of the pedaogical ingineering of the MOOC.",
+    "description": "I have done the framing of a MOOC 'comment faire son laboratoire d'innovation publique ?' during an Intership in the innovation Lab of Pôle emploi (french national administration for employement). I faced the constraints and important points of designing a MOOC. I did the first drafts of the pedaogical ingineering of the MOOC.",
     "details": "https://www.fun-mooc.fr/courses/course-v1:USPC+37013+session01/about",
     "skill1": "Design",
     "skill2": "MOOC curriculum design",
@@ -121,7 +121,7 @@
   },
   {
     "project": "Machine learning",
-    "description": "Learn Machine learning and deep learning by myself",
+    "description": "I have learnt by myself Machine learning and deep learning. I used videos, open source projects, and tools like Keras, Tensorflow and PyTorch.",
     "details": "https://github.com/Transformation-Makers",
     "skill1": "Teach",
     "skill2": "Self-teaching",
@@ -129,7 +129,7 @@
   },
   {
     "project": "Blockchain",
-    "description": "Learn blockchain and decentralized application by myself",
+    "description": "I have learnt blockchain and decentralized application by myself. To do it, I used ethereum, solidity, web3.js, etc.",
     "details": "https://github.com/Transformation-Makers",
     "skill1": "Teach",
     "skill2": "Self-teaching",
@@ -137,7 +137,7 @@
   },
   {
     "project": "Digital literacy and digital creation",
-    "description": "Run a weekly workshop on digital production / creation (web, games, IoT...) for kids from 11 to 14 in an society called Le temps des cerises.",
+    "description": "I have animated during the whole 2018 year a weekly workshop on digital production / creation (web, games, IoT...) for kids from 11 to 14 in an society called Le temps des cerises.",
     "details": "",
     "skill1": "Teach",
     "skill2": "Worskshop animation",
@@ -145,7 +145,7 @@
   },
   {
     "project": "Digital literacy and digital creation",
-    "description": "Design a weekly workshop curriculum on digital production / creation (web, games, IoT...) for kids from 11 to 14 in an society called Le temps des cerises.",
+    "description": "I have designed a weekly workshop curriculum on digital production / creation (web, games, IoT...) for kids from 11 to 14 in an society called Le temps des cerises, for the whole 2018 year.",
     "details": "",
     "skill1": "Design",
     "skill2": "Workshop design",
