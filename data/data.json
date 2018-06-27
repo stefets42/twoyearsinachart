@@ -25,7 +25,7 @@
   },
   {
     "project": "Maker Auto",
-    "description": "Participation in a two weeks S.T.E.A.M winter school hosted in a maker space in Mumbai.",
+    "description": "Participation in a two weeks S.T.E.A.M winter school hosted in a maker space in Mumbai. During those two weeks I programmed a geolocation mobile-base tracker and web visualisation of the real-time position and past positions of the GPS tracker.",
     "details": "https://steam.makersasylum.com/school/",
     "skill1": "Make",
     "skill2": "JavaScript programing",
