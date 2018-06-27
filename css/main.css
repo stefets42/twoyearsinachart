@@ -1,0 +1,67 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+*:focus, *:active, *:visited {
+  outline: none;
+  -moz-outline-style: none;
+}
+
+body {
+  margin: 0;
+  padding: 0 2vw;
+  font-family: "Open Sans", sans-serif;
+  font-size-adjust: initial;
+  font-size: 1rem;
+  color: #3a3934;
+  overflow-x: hidden;
+}
+
+body > header {
+  color: #3a3934;
+}
+
+body > header > h1 {
+  position: absolute;
+  bottom: 3vh;
+  right: 3vw;
+  width: 120px;
+  margin: 0;
+  text-transform: uppercase;
+  text-align: right;
+  font-family: 'Crete Round', serif;
+}
+
+.orange {
+  color: #ff3800;
+}
+.bg-dot {
+  font-size: 4rem;
+  line-height: .1rem;
+}
+
+a {
+  color: #4ABDAC;
+  text-decoration: none;
+}
+
+button {
+  border: 1px solid #ff3800;
+  background: #ff3800;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  outline: none;
+  transition: all .4s;
+}
+button:hover {
+  cursor: pointer;
+  background: none;
+  color: #ff3800;
+}
+
+footer {
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  font-weight: 300;
+  font-size: .7rem;
+}

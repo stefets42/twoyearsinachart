@@ -1,0 +1,30 @@
+aside#fields {
+  float: right;
+  max-width: 20vw;
+}
+aside#fields button#cleanFilters {
+  background: none;
+  font-size: .9rem;
+  color: #ff3800;
+  border: none;
+  padding: 0;
+  float: right;
+}
+aside#fields nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+aside#fields nav ul li {
+  margin: .5rem 0;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: right;
+}
+aside#fields nav ul li.active {
+  color: #ff3800;
+}
+aside#fields nav ul li:hover {
+  cursor: pointer;
+  color: #ff3800;
+}

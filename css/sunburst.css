@@ -1,0 +1,11 @@
+section#sunburst div.svg-container {
+  width: calc(62vw * 3 / 4);
+  margin: .8rem auto 0 auto;
+}
+svg path {
+  stroke: #fff;
+}
+svg g g:hover {
+  cursor: pointer;
+  opacity: .8;
+}

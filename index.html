@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Datavisualisation of my skills acquired and projects done in two years of master EdTech @ CRI Paris">
+    
+    <title>Louis Audéon - Two years in a chart</title>
+    
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/sunburst.css">
+    <link rel="stylesheet" href="css/fields.css">
+    <link rel="stylesheet" href="css/intro.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crete+Round|Open+Sans:300,400,600,700">
+</head>
+
+<body>
+    <aside id="intro" role="doc-introduction">
+        <h1>Two years in a chart<span class="orange bg-dot">.</span></h1>
+        <p>Welcome, welcome! <br> This is a <strong>data-visualization</strong> of the skills acquired in two years of EdTech Master, at the Center for Researches and Interdisciplinary of Paris. My skills are organized in a graph called a <strong>sunburst-chart</strong>. Click on a competence to obtain the description of the projects involved in the acquisition of the competence.</p>
+        <button id="closeIntro">Go!&nbsp;&nbsp;<i class="fa fa-arrow-right"></i></button>
+    </aside>
+    
+    <header role="banner">
+        <h1>Two years in a chart<span class="orange bg-dot">.</span></h1>
+    </header>
+
+    <main role="main">
+        <aside id="projects" role="definition">
+            <h1></h1>
+            <p id="project"></p>
+            <p id="description"></p>
+            <p id="details"></p>
+        </aside>
+        
+        <aside id="fields" role="toolbar">
+            <nav>
+                <ul></ul>
+            </nav>
+            <button id="cleanFilters">no filter</button>
+        </aside>
+        
+        <section id="sunburst"></section>
+    </main>
+
+    <footer>
+        Made with &hearts;
+    </footer>
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="js/fields.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/sunburst.js"></script>
+    <script src="js/app.js"></script>
+    
+    <script>
+        App.vroum();
+    </script>
+</body>
+</html>

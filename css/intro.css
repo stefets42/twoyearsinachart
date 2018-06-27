@@ -1,0 +1,24 @@
+aside#intro {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background: rgba(255, 255, 255, .95);
+  padding: 3vw 3vh;
+  transition: opacity .3s;
+}
+
+aside#intro button {
+  float: right;
+}
+
+aside#intro h1 {
+  font-family: 'Crete Round', serif;
+  font-size: 3rem;
+}
+
+aside#intro p {
+  font-size: 2rem;
+}
