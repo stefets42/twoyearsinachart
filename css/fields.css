@@ -2,6 +2,10 @@ aside#fields {
   float: right;
   max-width: 20vw;
 }
+aside#fields h1 {
+  font-family: 'Crete Round', serif;
+  text-align: right;
+}
 aside#fields button#cleanFilters {
   background: none;
   font-size: .9rem;
