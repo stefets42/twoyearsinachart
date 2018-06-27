@@ -52,7 +52,7 @@ const Fields = (function (my) {
       cleanActiveClass();
 
       li.className = 'active';
-      sunburstChart.path.attr('opacity', 0.2);
+      sunburstChart.path.transition().attr('opacity', 0.2);
       sunburstChart.path
         .each(function(d) {
           if (d.data.field && d.data.field.indexOf(field) > -1) {
@@ -65,6 +65,7 @@ const Fields = (function (my) {
         .filter(function(d) {
           return validPath.indexOf(d) > -1;
         })
+        .transition()
         .attr('opacity', function(d) {
           return 1;
         });
@@ -84,7 +85,7 @@ const Fields = (function (my) {
 
   my.cleanUp = function (sunburstChart) { return function () {
     cleanActiveClass()
-    sunburstChart.path.attr('opacity', 1);
+    sunburstChart.path.transition().attr('opacity', 1);
   }};
 
   return my;
