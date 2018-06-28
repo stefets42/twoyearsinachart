@@ -31,17 +31,52 @@ const Projects = (function (my) {
   }
 
   const updateData = function (data) {
-    data.details = Array.isArray(data.details) ? data.details.join('<br><br>') : data.details;
-    data.description = Array.isArray(data.description) ? data.description.join('<br><br>') : data.description;
-    data.project = Array.isArray(data.project) ? data.project.join('<br><br>') : data.project;
-    data.title = Array.isArray(data.title) ? data.title.join('<br><br>') : data.title;
+    cleanAside();
 
-    data.details = linkify(data.details);
+    if (Array.isArray(data.project) && data.project.length > 1) {
+      return updateDataForSeveralProjects(data);
+    }
+    data.details[0] = linkify(data.details[0]);
 
     my.titleElem.innerHTML = data.name ? data.name : '';
-    my.projectElem.innerHTML = data.project ? data.project : '';
-    my.descriptionElem.innerHTML = data.description ? data.description : '';
-    my.detailsElem.innerHTML = data.details ? data.details : '';  
+    my.projectElem.innerHTML = data.project[0] ? data.project[0] : '';
+    my.descriptionElem.innerHTML = data.description[0] ? data.description[0] : '';
+    my.detailsElem.innerHTML = data.details[0] ? data.details[0] : '';  
+  }
+
+  const updateDataForSeveralProjects = function (data) {
+    const dataLength = data.project.length;
+    let i = 0;
+    for (i; i < dataLength; i++) {
+      data.details[i] = linkify(data.details[i]);
+
+      my.projectElem.innerHTML = data.project[i] ? data.project[i] : '';
+      my.descriptionElem.innerHTML = data.description[i] ? data.description[i] : '';
+      my.detailsElem.innerHTML = data.details[i] ? data.details[i] : '';
+
+      duplicateParagraphes();
+    }
+
+    my.titleElem.innerHTML = data.name ? data.name : '';
+  }
+
+  const duplicateParagraphes = function () {
+    my.projectElem = my.projectElem.cloneNode();
+    my.descriptionElem = my.descriptionElem.cloneNode();
+    my.detailsElem = my.detailsElem.cloneNode();
+
+    my.asideElem.appendChild(my.projectElem);
+    my.asideElem.appendChild(my.descriptionElem);
+    my.asideElem.appendChild(my.detailsElem);
+  }
+
+  const cleanAside = function () {
+    my.asideElem.innerHTML = '';
+    my.titleElem = my.titleElem.cloneNode();
+    my.asideElem.appendChild(my.titleElem);
+    my.asideElem.appendChild(my.projectElem);
+    my.asideElem.appendChild(my.descriptionElem);
+    my.asideElem.appendChild(my.detailsElem);
   }
 
   const linkify = function (text) {
