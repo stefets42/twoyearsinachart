@@ -1,7 +1,7 @@
 aside#projects {
   float: left;
   width: 20vw;
-  max-height: 85vh;
+  max-height: 90vh;
   overflow-y: auto;
   background: #ffffff;
   transition: opacity .1s;
@@ -10,7 +10,7 @@ aside#projects {
 }
 
 aside#projects h1 {
-  margin: 0;
+  margin: 0 0 .5rem 0;
   font-family: 'Crete Round', serif;
   font-size: 1.5rem;
   text-align: left;
@@ -28,4 +28,8 @@ aside#projects p {
   font-size: 1rem;
   font-weight: normal;
   margin: 0 0 1rem 0;
+}
+
+aside#projects p#project {
+  font-weight: 700;
 }
